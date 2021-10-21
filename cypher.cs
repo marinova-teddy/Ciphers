@@ -57,7 +57,7 @@ public class Program
 		{
 			int currChar = (int) msg[i] + key;
 			//if spacebar
-			if (msg[i]==' ') {currChar=(int)' ';Console.WriteLine("SPACEBAR");}
+			if (msg[i]==' ') currChar=(int)' ';
 			//if lowercase letter
 			if ( IsSmallLetter(msg[i]) && !IsSmallLetter((char)currChar) ) currChar-=26;
 			//if capital letter
@@ -73,7 +73,6 @@ public class Program
 			   ( currChar==(int)' ' || IsSmallLetter((char)currChar) || IsCapitalLetter((char)currChar) || IsDigit((char)currChar)) ) {
 				currChar+=key;
 			}
-				
 			encMsg += (char) currChar;
 		}
 
@@ -90,7 +89,7 @@ public class Program
 		{
 			int currChar = (int)msg[i] - key;
 			//if spacebar
-			if (msg[i]==' ') {currChar=(int)' ';Console.WriteLine("SPACEBAR");}
+			if (msg[i]==' ') currChar=(int)' ';
 			//if lowercase letter
 			if ( IsSmallLetter(msg[i]) && !IsSmallLetter((char)currChar) ) currChar+=26;
 			//if capital letter
@@ -107,9 +106,8 @@ public class Program
 				currChar-=key;
 			}
 			decMsg += (char)currChar;
-			Console.Write((int)msg[i] + " ");
 		}
 
-		Console.WriteLine("\nMessage: {0}", decMsg);
+		Console.WriteLine("Message: {0}", decMsg);
 	}
 }
