@@ -1,6 +1,7 @@
 # Cipher
 
 ## Caesar Cipher
+Written in C#  
 How the cypher works:  
 - lowercase letters -> lowercase letters  
 - capital letters -> capital letters  
