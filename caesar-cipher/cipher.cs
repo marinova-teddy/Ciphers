@@ -19,13 +19,15 @@ public class Program
 				break;
 		}
 		
+		Console.WriteLine("Enter your message: ");
+		string msg = Console.ReadLine();
+
 		if (task == 1)
-			Encryption(key);
+			Encryption(msg, key);
 		else
-			Decryption(key);
+			Decryption(msg, key);
 		
 	}
-
 	public static bool IsSmallLetter(char symbol)
 	{
 		if (symbol <= 'z' && symbol >= 'a')
@@ -47,10 +49,8 @@ public class Program
 		return false;
 	}
 
-	public static void Encryption(int key)
+	public static void Encryption(string msg, int key)
 	{
-		Console.WriteLine("Enter your message: ");
-		string msg = Console.ReadLine();
 		string encMsg = "";
 		
 		for (int i = 0; i < msg.Length; i++)
@@ -79,10 +79,8 @@ public class Program
 		Console.Write("This is your encrypted message: {0}", encMsg);
 	}
 
-	static void Decryption(int key)
+	static void Decryption(string msg, int key)
 	{
-		Console.WriteLine("Enter your message: ");
-		string msg = Console.ReadLine();
 		string decMsg = "";
 		
 		for (int i = 0; i < msg.Length; i++)
@@ -108,6 +106,6 @@ public class Program
 			decMsg += (char)currChar;
 		}
 
-		Console.WriteLine("Message: {0}", decMsg);
+		Console.WriteLine("Key: {0} -> Message: {1}", key, decMsg);
 	}
 }
