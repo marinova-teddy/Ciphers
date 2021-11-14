@@ -2,7 +2,7 @@
 
 ## Caesar Cipher
 Written in C#  
-How the cypher works:  
+How the cipher works:  
 - lowercase letters -> lowercase letters  
 - capital letters -> capital letters  
 - digits -> digits  
@@ -10,3 +10,5 @@ How the cypher works:
 - other symbols -> other symbols
 
 ## Transposition Cipher  
+Written in JS  
+Testing code also in JS
