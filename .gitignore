@@ -5,4 +5,4 @@
 task.jpg
 
 #Personal settings files
-*.vscode
+settings.json
