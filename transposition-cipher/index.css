@@ -1,0 +1,12 @@
+* {
+    background-color: lightgray;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.test-result {
+    border: 2px dotted black;
+}
+
+#results ul {
+    list-style-type: none;
+}

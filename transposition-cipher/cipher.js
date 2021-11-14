@@ -21,7 +21,6 @@ function decryption(encMsg, key) {
     for (let i=0; i<cols; i++) {
         for (let j=0; j<rows; j++) {
             if ((i+cols*j)>=encMsg.length) continue;
-            console.log(i+cols*j);
             msg+=encMsg[i+cols*j];
         }
     }
