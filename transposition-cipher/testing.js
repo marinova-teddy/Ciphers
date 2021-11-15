@@ -1,9 +1,9 @@
-function testing(e) {
+async function testing(e) {
     e.preventDefault();
     const numOfTests = 50;
 
     for (let i=0;i<numOfTests;i++) {
-        let msg = genMsg();
+        let msg = await genMsg();
         let key = Math.floor(msg.length*(0.3 + Math.random()*0.16));
         genDiv(msg, decryption(encryption(msg, key), key), key, i+1);
     }
@@ -30,12 +30,15 @@ function genDiv(msg, decMsg, key, testNum) {
     list.appendChild(item4);
     resultDiv.appendChild(list);
 
+    resultDiv.className = "test-result";
+    if (msg===decMsg) resultDiv.style.backgroundColor = "lightgreen";
+    else resultDiv.style.backgroundColor = "lightsalmon";
     document.getElementById("results").appendChild(resultDiv);
 }
 
 function genMsg() {
-    let msg = "";
-    //grab a sentence from somewhere
-    msg = "It is also important that the work goes beyond.";
-    return msg;
+    return new Promise((res, rej) => {
+        fetch("http://metaphorpsum.com/paragraphs/1/1").then(res => res.text())
+            .then(data => {res(data)});
+    });
 }

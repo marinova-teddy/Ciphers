@@ -4,9 +4,17 @@
 }
 
 .test-result {
-    border: 2px dotted black;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 5% 1%;
+    padding: 1% 2.5%;
 }
 
-#results ul {
+.test-result ul {
     list-style-type: none;
+    background-color: inherit;
+}
+
+.test-result h2, li, em {
+    background-color: inherit;
 }

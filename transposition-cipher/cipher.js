@@ -27,6 +27,3 @@ function decryption(encMsg, key) {
 
     return msg;
 }
-
-// test: encryption("It is also important that the work goes beyond.", 8)
-// decryption("Isttrbtoa ke  nt yiithgosm eon pt edaohws.lrao ", 8)
