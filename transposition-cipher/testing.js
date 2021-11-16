@@ -39,6 +39,7 @@ function genDiv(msg, decMsg, key, testNum) {
 function genMsg() {
     return new Promise((res, rej) => {
         fetch("http://metaphorpsum.com/paragraphs/1/1").then(res => res.text())
-            .then(data => {res(data)});
+            .then(data => {res(data)})
+            .catch(err => alert(err));
     });
 }
