@@ -10,5 +10,11 @@ How the cipher works:
 - other symbols -> other symbols
 
 ## Transposition Cipher  
-Written in JS  
-Testing code also in JS
+Written in JavaScript 
+Testing code also in JavaScript
+
+## Affine Cipher  
+Written in C#  
+- Multiplicative cipher  
+- Caesar cipher
+
