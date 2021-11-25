@@ -10,7 +10,7 @@ How the cipher works:
 - other symbols -> other symbols
 
 ## Transposition Cipher  
-Written in JavaScript 
+Written in JavaScript  
 Testing code also in JavaScript
 
 ## Affine Cipher  
