@@ -1,0 +1,15 @@
+/Users/teddy/Desktop/Ciphers/affine-cipher/AffineCipher/AffineCipher/bin/Debug/net5.0/AffineCipher.deps.json
+/Users/teddy/Desktop/Ciphers/affine-cipher/AffineCipher/AffineCipher/bin/Debug/net5.0/AffineCipher.runtimeconfig.json
+/Users/teddy/Desktop/Ciphers/affine-cipher/AffineCipher/AffineCipher/bin/Debug/net5.0/AffineCipher.runtimeconfig.dev.json
+/Users/teddy/Desktop/Ciphers/affine-cipher/AffineCipher/AffineCipher/bin/Debug/net5.0/AffineCipher.dll
+/Users/teddy/Desktop/Ciphers/affine-cipher/AffineCipher/AffineCipher/bin/Debug/net5.0/ref/AffineCipher.dll
+/Users/teddy/Desktop/Ciphers/affine-cipher/AffineCipher/AffineCipher/bin/Debug/net5.0/AffineCipher.pdb
+/Users/teddy/Desktop/Ciphers/affine-cipher/AffineCipher/AffineCipher/obj/Debug/net5.0/AffineCipher.csproj.AssemblyReference.cache
+/Users/teddy/Desktop/Ciphers/affine-cipher/AffineCipher/AffineCipher/obj/Debug/net5.0/AffineCipher.GeneratedMSBuildEditorConfig.editorconfig
+/Users/teddy/Desktop/Ciphers/affine-cipher/AffineCipher/AffineCipher/obj/Debug/net5.0/AffineCipher.AssemblyInfoInputs.cache
+/Users/teddy/Desktop/Ciphers/affine-cipher/AffineCipher/AffineCipher/obj/Debug/net5.0/AffineCipher.AssemblyInfo.cs
+/Users/teddy/Desktop/Ciphers/affine-cipher/AffineCipher/AffineCipher/obj/Debug/net5.0/AffineCipher.csproj.CoreCompileInputs.cache
+/Users/teddy/Desktop/Ciphers/affine-cipher/AffineCipher/AffineCipher/obj/Debug/net5.0/AffineCipher.dll
+/Users/teddy/Desktop/Ciphers/affine-cipher/AffineCipher/AffineCipher/obj/Debug/net5.0/ref/AffineCipher.dll
+/Users/teddy/Desktop/Ciphers/affine-cipher/AffineCipher/AffineCipher/obj/Debug/net5.0/AffineCipher.pdb
+/Users/teddy/Desktop/Ciphers/affine-cipher/AffineCipher/AffineCipher/obj/Debug/net5.0/AffineCipher.genruntimeconfig.cache
