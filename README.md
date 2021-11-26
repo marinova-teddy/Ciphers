@@ -16,7 +16,7 @@ Testing code also in JavaScript
 ## Affine Cipher  
 Written in C#  
   
-- Multiplicative cipher 
+- Multiplicative cipher  
 Multiplicative cipher works only for letters.  
   
 - Caesar cipher  
