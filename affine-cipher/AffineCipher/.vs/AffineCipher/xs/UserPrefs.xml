@@ -1,0 +1,26 @@
+﻿<Properties StartupConfiguration="{37A5C1F2-D2E1-43F8-8E30-356A80398B67}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="AffineCipher/HelperMethods.cs">
+    <Files>
+      <File FileName="AffineCipher/Program.cs" Line="15" Column="1" />
+      <File FileName="AffineCipher/GCD.cs" Line="7" Column="23" NotebookId="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="AffineCipher" expanded="True">
+            <Node name="AffineCipher" expanded="True">
+              <Node name="HelperMethods.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.AffineCipher FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
+</Properties>
