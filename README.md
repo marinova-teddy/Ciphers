@@ -1,4 +1,4 @@
-# Cipher
+# Ciphers
 
 ## Caesar Cipher
 Written in C#  
@@ -15,6 +15,9 @@ Testing code also in JavaScript
 
 ## Affine Cipher  
 Written in C#  
-- Multiplicative cipher  
-- Caesar cipher
-
+  
+- Multiplicative cipher 
+Multiplicative cipher works only for letters.  
+  
+- Caesar cipher  
+Caesar cipher code taken from the initial caesar cipher and modified a bit to suit the needs of this cipher.  
