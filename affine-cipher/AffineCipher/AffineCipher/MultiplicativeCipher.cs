@@ -11,8 +11,10 @@ namespace AffineCipher
 
             for (int i=0; i<msg.Length; i++)
             {
-                if (HelperMethods.IsItLetter(msg[i]))
-                    encMsg += (char)(((int)msg[i]) * key % alph);
+                if (msg[i] >= 'A' && msg[i] >= 'Z')
+                    encMsg += (char)('A'+((int)msg[i]) * key % alph);
+                else if (msg[i]>='a' && msg[i]>='z')
+                    encMsg += (char)('a' + ((int)msg[i]) * key % alph);
                 else
                     encMsg += (char)msg[i];
             }

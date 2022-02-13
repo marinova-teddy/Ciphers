@@ -19,7 +19,7 @@ namespace AffineCipher
             string encMsg = MultiplicativeCipher.Encryption(msg, cipherKey[0]);
 
             //caesar cipher
-            //encMsg = CaesarCipher.Encryption(encMsg, cipherKey[1]);
+            encMsg = CaesarCipher.Encryption(encMsg, cipherKey[1]);
 
             //output encrypted message
             Console.WriteLine(encMsg);
