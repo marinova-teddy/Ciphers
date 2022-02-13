@@ -3,6 +3,8 @@
 
 #Project files
 task.jpg
+/affine-cipher/task/
 
 #Personal settings files
 settings.json
+/transposition-cipher/.vscode/
