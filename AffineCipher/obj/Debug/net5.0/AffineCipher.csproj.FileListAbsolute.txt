@@ -1,0 +1,16 @@
+H:\Ciphers\AffineCipher\obj\Debug\net5.0\AffineCipher.csproj.AssemblyReference.cache
+H:\Ciphers\AffineCipher\obj\Debug\net5.0\AffineCipher.GeneratedMSBuildEditorConfig.editorconfig
+H:\Ciphers\AffineCipher\obj\Debug\net5.0\AffineCipher.AssemblyInfoInputs.cache
+H:\Ciphers\AffineCipher\obj\Debug\net5.0\AffineCipher.AssemblyInfo.cs
+H:\Ciphers\AffineCipher\obj\Debug\net5.0\AffineCipher.csproj.CoreCompileInputs.cache
+H:\Ciphers\AffineCipher\bin\Debug\net5.0\AffineCipher.exe
+H:\Ciphers\AffineCipher\bin\Debug\net5.0\AffineCipher.deps.json
+H:\Ciphers\AffineCipher\bin\Debug\net5.0\AffineCipher.runtimeconfig.json
+H:\Ciphers\AffineCipher\bin\Debug\net5.0\AffineCipher.runtimeconfig.dev.json
+H:\Ciphers\AffineCipher\bin\Debug\net5.0\AffineCipher.dll
+H:\Ciphers\AffineCipher\bin\Debug\net5.0\ref\AffineCipher.dll
+H:\Ciphers\AffineCipher\bin\Debug\net5.0\AffineCipher.pdb
+H:\Ciphers\AffineCipher\obj\Debug\net5.0\AffineCipher.dll
+H:\Ciphers\AffineCipher\obj\Debug\net5.0\ref\AffineCipher.dll
+H:\Ciphers\AffineCipher\obj\Debug\net5.0\AffineCipher.pdb
+H:\Ciphers\AffineCipher\obj\Debug\net5.0\AffineCipher.genruntimeconfig.cache

@@ -1,0 +1,16 @@
+H:\Ciphers\SubstitutionCipher\bin\Debug\net5.0\SubstitutionCipher.exe
+H:\Ciphers\SubstitutionCipher\bin\Debug\net5.0\SubstitutionCipher.deps.json
+H:\Ciphers\SubstitutionCipher\bin\Debug\net5.0\SubstitutionCipher.runtimeconfig.json
+H:\Ciphers\SubstitutionCipher\bin\Debug\net5.0\SubstitutionCipher.runtimeconfig.dev.json
+H:\Ciphers\SubstitutionCipher\bin\Debug\net5.0\SubstitutionCipher.dll
+H:\Ciphers\SubstitutionCipher\bin\Debug\net5.0\ref\SubstitutionCipher.dll
+H:\Ciphers\SubstitutionCipher\bin\Debug\net5.0\SubstitutionCipher.pdb
+H:\Ciphers\SubstitutionCipher\obj\Debug\net5.0\SubstitutionCipher.csproj.AssemblyReference.cache
+H:\Ciphers\SubstitutionCipher\obj\Debug\net5.0\SubstitutionCipher.GeneratedMSBuildEditorConfig.editorconfig
+H:\Ciphers\SubstitutionCipher\obj\Debug\net5.0\SubstitutionCipher.AssemblyInfoInputs.cache
+H:\Ciphers\SubstitutionCipher\obj\Debug\net5.0\SubstitutionCipher.AssemblyInfo.cs
+H:\Ciphers\SubstitutionCipher\obj\Debug\net5.0\SubstitutionCipher.csproj.CoreCompileInputs.cache
+H:\Ciphers\SubstitutionCipher\obj\Debug\net5.0\SubstitutionCipher.dll
+H:\Ciphers\SubstitutionCipher\obj\Debug\net5.0\ref\SubstitutionCipher.dll
+H:\Ciphers\SubstitutionCipher\obj\Debug\net5.0\SubstitutionCipher.pdb
+H:\Ciphers\SubstitutionCipher\obj\Debug\net5.0\SubstitutionCipher.genruntimeconfig.cache
