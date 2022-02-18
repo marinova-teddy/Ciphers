@@ -1,31 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "H:\\Ciphers\\SubstitutionCipher\\SubstitutionCipher.csproj": {}
+    "/Users/teddy/Desktop/Ciphers/SubstitutionCipher/SubstitutionCipher.csproj": {}
   },
   "projects": {
-    "H:\\Ciphers\\SubstitutionCipher\\SubstitutionCipher.csproj": {
+    "/Users/teddy/Desktop/Ciphers/SubstitutionCipher/SubstitutionCipher.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\Ciphers\\SubstitutionCipher\\SubstitutionCipher.csproj",
+        "projectUniqueName": "/Users/teddy/Desktop/Ciphers/SubstitutionCipher/SubstitutionCipher.csproj",
         "projectName": "SubstitutionCipher",
-        "projectPath": "H:\\Ciphers\\SubstitutionCipher\\SubstitutionCipher.csproj",
-        "packagesPath": "C:\\Users\\t.marinova23.ACSLAB\\.nuget\\packages\\",
-        "outputPath": "H:\\Ciphers\\SubstitutionCipher\\obj\\",
+        "projectPath": "/Users/teddy/Desktop/Ciphers/SubstitutionCipher/SubstitutionCipher.csproj",
+        "packagesPath": "/Users/teddy/.nuget/packages/",
+        "outputPath": "/Users/teddy/Desktop/Ciphers/SubstitutionCipher/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\t.marinova23.ACSLAB\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "/Users/teddy/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -58,7 +52,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.405/RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ILbNpOuk89ZM8h9RCjgkfvcM9krX20fOqn8L5CcbQcg7z75miol8Th2vkbf7WuNYFIqQJL6o3pKrCnDMtj8aIQ==",
+  "dgSpecHash": "jS1guD3EpECvBugUkCcnb5UCPCjfzc1ml/X6TmTOc6krkNrZYJRNNhSLD92p91l+qGOaq6iL779XOiSteSeGjg==",
   "success": true,
-  "projectFilePath": "H:\\Ciphers\\SubstitutionCipher\\SubstitutionCipher.csproj",
+  "projectFilePath": "/Users/teddy/Desktop/Ciphers/SubstitutionCipher/SubstitutionCipher.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
