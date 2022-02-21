@@ -10,10 +10,6 @@ namespace SubstitutionCipher
     {
         static void Main(string[] args)
         {
-            string a = "abc";
-            Console.WriteLine(FindValueIndex(a, 'a'));
-            Console.WriteLine(FindValueIndex(a, 'd'));
-            /*
             do
             {
                 Console.WriteLine("Enter your message:");
@@ -42,7 +38,7 @@ namespace SubstitutionCipher
                 string cont = Console.ReadLine();
                 if (cont != "Yes") break;
             }
-            while (true);*/
+            while (true);
         }
         public static string CreateKey()
         {
@@ -89,12 +85,10 @@ namespace SubstitutionCipher
         }
         public static void SwapValues(ref string str, char a, char b)
         {
-            Console.WriteLine("Chars changed from " + a + " " + b);
             char placeholder = '~';
-            str.Replace(a, placeholder);
-            str.Replace(b, a);
-            str.Replace(placeholder, b);
-            Console.WriteLine("Strings changed to " + a + " " + b);
+            str = str.Replace(a, placeholder);
+            str = str.Replace(b, a);
+            str = str.Replace(placeholder, b);
         }
         public static void SwapValues(ref string a, ref string b)
         {
