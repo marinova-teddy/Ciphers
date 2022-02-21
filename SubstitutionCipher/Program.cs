@@ -4,7 +4,7 @@ namespace SubstitutionCipher
 {
     class Alphabet
     {
-        public string alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890,.;:'-_=+()[]{}";
+        public string keySet = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890,.;:'-_=+()[]{}";
     }
     class Program
     {
@@ -26,7 +26,7 @@ namespace SubstitutionCipher
                 }
                 while (true);
 
-                string key = CreateKey();
+                string key = generateRandomKey();
                 if (mode == 'E')
                     newMsg = EncryptMessage(key, msg);
                 else
@@ -40,10 +40,10 @@ namespace SubstitutionCipher
             }
             while (true);
         }
-        public static string CreateKey()
+        public static string generateRandomKey()
         {
             Alphabet a = new Alphabet();
-            string key = a.alphabet;
+            string key = a.keySet;
             Random rand = new Random();
 
             for (int i=0;i<key.Length;i++)
@@ -57,7 +57,7 @@ namespace SubstitutionCipher
         public static string TranslateMessage(string key, string msg, string mode)
         {
             Alphabet a = new Alphabet();
-            string newMsg = "", alph = a.alphabet;
+            string newMsg = "", alph = a.keySet;
             if (mode == "encrypt")
                 SwapValues(ref alph, ref key);
 
